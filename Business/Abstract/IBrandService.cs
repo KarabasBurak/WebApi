@@ -12,5 +12,6 @@ namespace Business.Abstract;
 public interface IBrandService
 {
      CreatedBrandResponse Add(CreateBrandRequest brand);
-    List<Brand> GetAll();
+    List<GetAllBrandResponse> GetAll();
 }
+ 
